@@ -11,7 +11,12 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
+    .avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+	}
 	body
 	{
 		background: #F8F8F8;
@@ -26,15 +31,15 @@
 		color: #888;
 		-webkit-text-stroke: 0.1px;
 	}
-
-	h1,h2,h3,h4,h5,h6
+	
+	h1,h2,h3,h4,h5,h6,
 	{
 		color: #666;
 		margin: 0 0 1em 0;
 		font-weight: 100;
 		line-height: 1.5em;
 	}
-	
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
@@ -1161,7 +1166,7 @@
 	{
 		position: relative;
 		margin: 0;
-		background: url('../images/header.jpg');
+		background: url('../images/pic07.jpg');
 		background-size: cover;
 		background-position: center center;
 		padding: 14em 0 14em 0;
