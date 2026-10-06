@@ -330,7 +330,7 @@
   }
 
   .links {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
     gap: 14px;
     margin-top: 18px;
   }
@@ -458,6 +458,11 @@
       <span>Cập nhật APP<span class="sub">KTV PRO NETWORK • v1.0.0</span></span>
       <span class="arrow">↗</span>
     </a>
+    <a class="btn rise d4" href="./firmware.html">
+      <span class="ic ic-firmware">📡</span>
+      <span>Firmware Modem FPT<span class="sub">Kho firmware &amp; tài liệu modem FPT</span></span>
+      <span class="arrow">↗</span>
+    </a>
   </nav>
 
   <!-- ===== Tiện ích ===== -->
@@ -466,8 +471,8 @@
 
     <div class="cards">
 
-      <a class="card rise d4" target="_blank" rel="noopener"
-         href="https://dvthuc97.github.io/firmware.github.io/">
+      <a class="card rise d4"
+         href="./firmware.html">
         <span class="ic ic-firmware">📡</span>
         <span>
           <span class="t">Firmware Modem FPT</span>
